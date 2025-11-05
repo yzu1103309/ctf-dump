@@ -1,4 +1,4 @@
-```clike=
+```c
 int __fastcall __noreturn main(int argc, const char **argv, const char **envp)
 {
   int v3; // [rsp+Ch] [rbp-4h]
@@ -34,7 +34,7 @@ LABEL_13:
 }
 ```
 
-```clike=
+```c
 int menu()
 {
   puts("what do you want to do?");
@@ -45,7 +45,7 @@ int menu()
 }
 ```
 
-```clike=
+```c
 void __noreturn submit_ans()
 {
   puts("you have submitted answer bye~");
@@ -53,7 +53,7 @@ void __noreturn submit_ans()
 }
 ```
 
-```clike=
+```c
 int read_int()
 {
   char buf[24]; // [rsp+0h] [rbp-20h] BYREF
@@ -65,7 +65,7 @@ int read_int()
 }
 ```
 
-```clike=
+```c
 int write_ans()
 {
   int result; // eax
@@ -87,7 +87,7 @@ int write_ans()
 }
 ```
 
-```clike=
+```c
 int open_book()
 {
   const char *v0; // rax
@@ -161,7 +161,7 @@ int open_book()
 }
 ```
 
-```clike=
+```c
 unsigned __int64 read_book()
 {
   char buf[72]; // [rsp+10h] [rbp-50h] BYREF
